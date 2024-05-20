@@ -1,0 +1,49 @@
+body
+{
+    background-color:#defb39;
+}
+
+h1
+{
+    color:rgb(155, 44, 239);
+    background-color:rgb(236, 242, 156)
+}
+
+#show_skech
+{
+    float:right;
+}
+
+#timer
+{
+    float:left;
+}
+
+#score
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius:25px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+  from {box-shadow: 3px 3px 38px grey;}
+  to {box-shadow: 3px 3px 38px white;}
+
+}
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+  }
+
